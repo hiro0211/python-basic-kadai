@@ -12,6 +12,7 @@ price2 = 200
 tax = 1.1
 
 def total():
-    total_price = 100 + 200
+    total_price = price1 + price2
     print(total_price * tax)
+    
 total()
